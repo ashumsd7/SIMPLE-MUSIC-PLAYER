@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(230deg,rgb(23, 255, 139),rgb(247, 100, 252));
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-width: 350px;
+    background: url(bg.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    margin: auto;
+    border-radius: 15px;
+    top: 50px;
+    box-shadow: 4px 8px 5px rgb(0, 0, 0);
+    
+}
+
+.item2{
+    align-self: flex-end;
+   border-radius: 1px;
+   
+}
+#audio{
+    border-radius: none;
+}
